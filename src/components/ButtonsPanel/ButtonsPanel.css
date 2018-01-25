@@ -1,0 +1,34 @@
+.buttons-panel{
+    display: flex;
+    justify-content: center;
+
+    padding-right: 10px;
+}
+
+.sort-item{
+    display: flex;
+    align-items: center;
+
+    height: 40px;
+}
+
+.sort-item:not(:last-child){
+    margin-right: 25px;
+}
+
+.arrows-wrapper{
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 5px;
+}
+
+.sort-arrow{
+    color: #dddddd;
+    line-height: 5px;
+}
+
+.active-arrow{
+    color: black;
+}
+

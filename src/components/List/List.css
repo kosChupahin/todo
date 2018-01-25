@@ -1,0 +1,59 @@
+.list-row{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+
+    padding: 10px 10px 10px 0;
+
+    border-top: 1px solid #CED3D1;
+}
+
+.titles-wrapper{
+    display: flex;
+    flex-direction: column;
+
+    flex-basis: 75%;
+    max-width: 75%;
+}
+
+.titles-wrapper > span{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.title-text{
+    font-size: 20px;
+    color: #494949;
+}
+
+.subtitle-text{
+    font-size: 16px;
+    color: #494949;
+}
+
+.checkbox{
+    flex-basis: 5%;
+    margin: 0 auto;
+}
+
+.buttons-wrapper{
+    display: flex;
+    justify-content: space-between;
+
+    flex-basis: 10%;
+
+    height: 100%;
+}
+
+.buttons-wrapper button:first-child{
+    margin-right: 5px;
+}
+
+.delete-btn{
+    color: #AA2916;
+}
+
+.delete-btn > i{
+    font-size: 18px;
+}
